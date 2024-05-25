@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div id="display">
+            0
+        </div>
+        <div class="botoes">
+            <button class="botao botaoFuncao" onclick="limpar()">C</button>
+            <button class="botao botaoFuncao" onclick="adicionarCaracter('/')">÷</button>
+            <button class="botao botaoFuncao" onclick="adicionarCaracter('*')">X</button>
+            <button class="botao botaoOperador" onclick="adicionarCaracter('-')">-</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('7')">7</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('8')">8</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('9')">9</button>
+            <button class="botao botaoOperador" onclick="adicionarCaracter('+')">+</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('4')">4</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('5')">5</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('6')">6</button>
+            <button class="botao botaoOperador botaoIgual" onclick="mostrarResultado()">=</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('1')">1</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('2')">2</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('3')">3</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('0')">0</button>
+            <button class="botao botaoNumero" onclick="adicionarCaracter('.')">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

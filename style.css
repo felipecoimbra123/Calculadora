@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.calculadora {
+    background-color: #333;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#display {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 2em;
+    text-align: right;
+    padding: 20px;
+}
+
+.botoes {
+    height: 60vh;
+    padding: 5px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.botao {
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+}
+
+.botaoOperador {
+    background-color: #ff9500;
+}
+
+.botaoIgual {
+    grid-row: span 3;
+    border-radius: 45px;
+}
+
+.botaoFuncao {
+    background-color: #a6a6a6;
+    color: #000;
+}
+
+.botaoNumero {
+    background-color: #505050;
+}

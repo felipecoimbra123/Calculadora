@@ -9,12 +9,12 @@ function adicionarCaracter (char){
     }
 }
 
-// Faz o botão de limpar funcionar, trocando o texto que já está e voltando a ser 0
+// Faz o botão de limpar funcionar, trocando o texto do display que já está e voltando a ser 0
 function limpar (){
     display.innerText = '0'
 }
 
-// Faz mudar o texto de onde mostra o cálculo para mostrar o resultado desse cálculo.
+// Faz mudar o texto do display para mostrar o resultado desse cálculo.
 function mostrarResultado () {
     display.innerText = eval(display.innerText)
 }

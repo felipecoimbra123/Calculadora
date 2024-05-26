@@ -12,6 +12,7 @@ body {
     border-radius: 20px;
 }
 
+/* O fundo de onde ficam os botões */
 #display {
     background-color: #000;
     color: #fff;
@@ -21,6 +22,7 @@ body {
     padding: 20px;
 }
 
+/* A div de todos os botões */
 .botoes {
     height: 60vh;
     padding: 5px;
@@ -29,6 +31,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/* Todos os botões */
 .botao {
     cursor: pointer;
     border-radius: 50%;
@@ -36,20 +39,37 @@ body {
     color: white;
 }
 
+
+/* Botões dos operadores (+, - e =) */
 .botaoOperador {
     background-color: #ff9500;
 }
 
+/* Botão do símbolo "=" */
 .botaoIgual {
     grid-row: span 3;
     border-radius: 45px;
 }
 
+/* Botão da função "C"*/
 .botaoFuncao {
     background-color: #a6a6a6;
     color: #000;
 }
 
+/* Botão de todos os números de 0 até 9 */
 .botaoNumero {
     background-color: #505050;
+}
+
+/* Botão do símbolo de multiplicação */
+.botaoMultiplicacao {
+    background-color: #a6a6a6;
+    color: #000;
+}
+
+/* Botão do símbolo de divisão */
+.botaoDivisao {
+    background-color: #a6a6a6;
+    color: #000;
 }
